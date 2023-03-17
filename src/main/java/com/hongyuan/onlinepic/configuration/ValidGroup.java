@@ -12,7 +12,8 @@ public class ValidGroup {
     /**
      * 新增使用(配合spring的@Validated功能分组使用)
      */
-    public interface Insert{}
+    public interface Insert {
+    }
 
     /**
      * 更新使用(配合spring的@Validated功能分组使用)
